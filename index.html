@@ -9,31 +9,32 @@
 
 <body>
     <header>
-        <!-- menu -->
-        <div>
-            <img src="" alt="hambager">
+        <div class="float-left">
+            <span id="menu">Menu</span>
             <img src="./image/logo.png" alt=" logo">
         </div>
-
-        <!-- search input -->
-        <form action="" method="post">
+        <form action="www.microverse.com" method="post">
             <input type="search" name="search" placeholder="Search">
             <button type="submit">search</button>
-            <div>
-                <span>upload</span>
-                <span>Sign in</span>
-
-            </div>
-
-
+        </form>
+        <div class="float-right">
+            <span>upload</span>
+            <span>Sign in</span>
+        </div>
     </header>
+
     <main>
-        <section>
-            <video src=""></video>
+        <section id="video-detail">
+
+            <video src="https://www.youtube.com/watch?v=sz_FOPYFJyQ" width="746px" height="420px" type="video/mp4" controls>
+                <p>Your browser does not currently recognize any of the video formats available.</p>
+                <a href="www.microvers.com">Click here to visit our frequently asked questions about HTML5 video.</a>
+            </video>
+
             <div id="video-stats-summary">
                 <h1 class="video-title">Contributing to Open Source part !: The east way</h1>
                 <div>
-                    <img src="" alt="" class="uploaders-avator">
+                    <img src="./image/avatar.jpeg" alt="" class="uploaders-avator">
                     <div>
                         <h1 class="uploaders-name">The odin project</h1>
                         <button class="button-subscribe"></button>
@@ -52,20 +53,15 @@
             </div>
 
             <div id="video-description">
+
                 <h1 id="publish-date">Published on feb 27,2014</h1>
+
                 <p id="description">
-                    How do you contribute to open source? In this video, I'll describe the easiest way to make a simple
-                    contribution to an
-                    open source project -- without using the command line, a text editor, "forking a repo", or even
-                    touching Git outside of
-                    Github. I'll also describe what kinds of contributions open source software projects are typically
-                    looking for. As an
-                    example, I use submitting a student solution to a web development exercise from The Odin Project, a
-                    free online
-                    curriculum for learning web development with Ruby on Rails. You can find more information about that
-                    project at
-                    http://theodinproject.com.
+                    How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll
+                    also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for
+                    learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
                 </p>
+
                 <hr>
                 <span id="show-more">show more</span>
             </div>
@@ -75,52 +71,57 @@
             </div>
 
         </section>
+
         <aside>
             <div class="video-list-title">
                 <span>Up Next</span>
                 <span>Autoplay</span>
-                <input type="checkbox" name="" id="">
+                <input type="checkbox" name="autoplay">
             </div>
-            <section class="video-content">
-                <img src="" alt="" class="video-thumbnail">
-                <ul>
-                    <li class="video-title">Contributing to Open Source Part II. The real way</li>
-                    <li class="video-uploader">The Odin Project</li>
-                    <li class="video-views">29,985 views</li>
-                </ul>
-            </section>
-            <section class="video-content">
-                <img src="" alt="" class="video-thumbnail">
-                <ul>
-                    <li class="video-title">How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by
-                    </li>
-                    <li class="video-uploader">Imtiana</li>
-                    <li class="video-views">981, 543 views</li>
-                </ul>
-            </section>
-            <section class="video-content">
-                <img src="" alt="" class="video-thumbnail">
-                <ul>
-                    <li class="video-title">Programming in Visual Basic .Net How to Connect Access Database to</li>
-                    <li class="video-uploader">iBassKung</li>
-                    <li class="video-views">16, 130, 993 views</li>
-                </ul>
-            </section>
-            <section class="video-content">
-                <img src="" alt="" class="video-thumbnail">
-                <ul>
-                    <li class="video-title">Contributing to Open Source Part II. The real way</li>
-                    <li class="video-uploader">The Odin Project</li>
-                    <li class="video-views">29,985 views</li>
-                </ul>
-            </section>
-            <section class="video-content">
-                <img src="" alt="" class="video-thumbnail">
-                <ul>
-                    <li class="video-title">REST API concepts and examples</li>
-                    <li class="video-uploader">WebConcepts</li>
-                    <li class="video-views">3,580,484 views</li>
-                </ul>
+            <section>
+                <div class="video-content">
+
+                    <img src="./image/image1.jpeg" alt="" class="video-thumbnail">
+                    <ul>
+                        <li class="video-title">Contributing to Open Source Part II. The real way</li>
+                        <li class="video-uploader">The Odin Project</li>
+                        <li class="video-views">29,985 views</li>
+                    </ul>
+
+                </div>
+                <div class="video-content">
+                    <img src="./image/image2.jpeg" alt="" class="video-thumbnail">
+                    <ul>
+                        <li class="video-title">How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by
+                        </li>
+                        <li class="video-uploader">Imtiana</li>
+                        <li class="video-views">981, 543 views</li>
+                    </ul>
+                </div>
+                <div class="video-content">
+                    <img src="./image/image3.jpeg" alt="" class="video-thumbnail">
+                    <ul>
+                        <li class="video-title">Programming in Visual Basic .Net How to Connect Access Database to</li>
+                        <li class="video-uploader">iBassKung</li>
+                        <li class="video-views">16, 130, 993 views</li>
+                    </ul>
+                </div>
+                <div class="video-content">
+                    <img src="./image/image5.jpeg" alt="" class="video-thumbnail">
+                    <ul>
+                        <li class="video-title">Contributing to Open Source Part II. The real way</li>
+                        <li class="video-uploader">The Odin Project</li>
+                        <li class="video-views">29,985 views</li>
+                    </ul>
+                </div>
+                <div class="video-content">
+                    <img src="./image/image4.jpeg" alt="" class="video-thumbnail">
+                    <ul>
+                        <li class="video-title">REST API concepts and examples</li>
+                        <li class="video-uploader">WebConcepts</li>
+                        <li class="video-views">3,580,484 views</li>
+                    </ul>
+                </div>
             </section>
             <hr>
             <div class="show-more-video-list">
