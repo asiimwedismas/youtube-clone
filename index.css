@@ -1,0 +1,24 @@
+header, main, footer{width: 1028px;margin: 0px auto;}
+
+#video-detail{  
+    margin-right:310px;
+}
+
+#thumbnails-aside{
+    width:300px;
+    display: block;
+    float:right;
+}
+
+#video-stats-summary, #more-video-actions, #video-description, #comments, #thumbnails-aside{
+    border: 2px solid gray; 
+}
+
+video{
+    width: 100%;
+    height: 400px;
+}
+
+main::after{content: "";display: block;clear: both;}
+
+
