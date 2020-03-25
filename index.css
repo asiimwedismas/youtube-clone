@@ -26,7 +26,7 @@ footer {
 
 video {
     width: 100%;
-    height: 400px;
+    min-height: 200px;
 }
 
 main::after {
@@ -203,6 +203,7 @@ footer ul:last-of-type>li>a {
     font-size: 12px;
 }
 
+
 /* .float-left {
     float: left;
     height: 100%;
@@ -211,18 +212,20 @@ footer ul:last-of-type>li>a {
 .float-right {
     float: right;
 } */
+
 #more-video-actions {
     display: flex;
 }
+
 .action-spacer {
     flex: 1;
 }
+
 #more-video-actions button {
     border: none;
     padding: 5px 10px;
     background: none;
 }
-
 
 .icon {
     background: url(./image/menu.png);
@@ -230,6 +233,7 @@ footer ul:last-of-type>li>a {
     height: 20px;
     display: inline-block;
 }
+
 
 /* .more-video-actions {
     margin-bottom: 20px;
@@ -261,26 +265,30 @@ footer ul:last-of-type>li>a {
 
 h1.video-title {
     margin: 5px 0;
-   color: #424242;
+    color: #424242;
     font-size: 20px;
-
 }
+
 .uploader-views-container {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
+
 .uploaders-name {
     line-height: 24px;
     text-decoration: none;
     color: #424242;
 }
+
 .total-views {
     margin: 0;
 }
+
 .viewers-uploader {
     display: flex;
 }
+
 .uploaders-name-subscribers-container {
     margin-left: 10px;
 }
@@ -289,6 +297,7 @@ h1.video-title {
     display: flex;
     align-items: center;
 }
+
 .subsrcibers {
     border: 1px solid #bdbdbd;
     padding: 2px 5px;
@@ -298,29 +307,32 @@ h1.video-title {
     background: red;
     color: #fff;
     border: none;
-    padding:3px 10px;
+    padding: 3px 10px;
 }
+
 .total-views {
     border-bottom: 2px solid #2979ff;
     opacity: .7;
     font-weight: 200;
     font-size: 18px;
-
 }
 
+
 /* video description section */
+
 #publish-date {
     margin: 0;
     color: #424242;
     font-size: 18px;
-
 }
+
 #description {
     color: #424242;
     margin-top: 5px;
     font-size: 15px;
     font-weight: 500;
 }
+
 #show-more {
     display: block;
     text-align: center;
@@ -330,27 +342,26 @@ h1.video-title {
     opacity: .7;
 }
 
-.action-buttons >*{
-    
+.action-buttons>* {
     display: inline-block;
     vertical-align: top;
 }
-.action-buttons >span:last-child{
+
+.action-buttons>span:last-child {
     padding: 4px 6px;
-    
-    
 }
+
 .subscribe-icon {
     background-position: -48px -775px;
     position: relative;
     top: 3px;
-
 }
+
 .button-subscribe>* {
     display: inline-block;
     vertical-align: middle;
 }
+
 #comments {
-    
     text-align: center;
 }
