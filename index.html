@@ -11,16 +11,16 @@
 <body>
     <header>
         <div class="float-left">
-            <span id="menu">Menu</span>
-            <img src="./image/logo.png" alt=" logo">
+            <span id="menu"></span>
+            <img class="youtube-logo" src="./image/logo.png" alt=" logo">
         </div>
         <form action="www.microverse.com" method="post">
             <input type="search" name="search" placeholder="Search">
-            <button type="submit">search</button>
+            <button id="button-search" type="submit">search</button>
         </form>
         <div class="float-right">
-            <span>upload</span>
-            <span>Sign in</span>
+            <span id="upload-button"></span>
+            <button id="sign-up-button">Sign up</button>
         </div>
     </header>
 
@@ -105,11 +105,15 @@
             </div>
 
             <div id="more-video-actions">
-                <button class="action-buttons">Add to</button>
-                <button class="action-buttons">share</button>
-                <button class="action-buttons">more</button>
-                <button class="action-buttons">like</button>
-                <button class="action-buttons">dislike</button>
+                <div class="float-left">
+                    <button class="action-buttons"><span class="icon add-to"></span> Add to</button>
+                    <button class="action-buttons"><span class="icon share"></span> share</button>
+                    <button class="action-buttons"><span class="icon more"></span> more</button>
+                </div>
+                <div class="float-right">
+                    <button class="action-buttons"><span class="icon like"></span> 12</button>
+                    <button class="action-buttons"><span class="icon dislike"></span> 400</button>
+                </div>
             </div>
 
             <div id="video-description">
@@ -136,7 +140,8 @@
     </main>
 
     <footer>
-        <div><img src="/image/logo.png" alt="youtube logo">
+        <div>
+            <img class="youtube-logo" src="/image/logo.png" alt="youtube logo">
             <ul>
                 <li><button>language: <b>English</b></button></li>
                 <li><button>Location: <b>Netherlands</b></button></li>
@@ -145,8 +150,8 @@
                 <li><a href="">help</a></li>
             </ul>
         </div>
-
-        <ul>
+        <hr>
+        <ul class="list-links">
             <li><a href="">about</a></li>
             <li><a href="">press</a></li>
             <li><a href="">copyright</a></li>
@@ -155,7 +160,7 @@
             <li><a href="">developers</a></li>
         </ul>
 
-        <ul>
+        <ul class="list-link">
             <li><a href="">terms</a></li>
             <li><a href="">privacy</a></li>
             <li><a href="">policy &amp; safety</a></li>
