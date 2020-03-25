@@ -107,16 +107,26 @@ main::after {
     margin-right: 20px
 }
 
-#upload-button {
+#upload-button,
+#notification-button,
+#youtube-apps-button {
     width: 24px;
     height: 24px;
     display: inline-block;
     background: url(./image/menu.png);
     background-position: -125px -314px;
     cursor: pointer;
-    margin-right: 0px 20px;
+    margin-right: 0px 30px;
     position: relative;
     top: 8px;
+}
+
+#notification-button {
+    background-position: -161px -33px;
+}
+
+#youtube-apps-button {
+    background-position: -231px -280px;
 }
 
 .youtube-logo {
@@ -126,6 +136,8 @@ main::after {
 header {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 header>* {
@@ -364,4 +376,9 @@ h1.video-title {
 
 #comments {
     text-align: center;
+}
+
+hr {
+    border-color: rgb(226, 226, 266);
+    border-width: 0px 0px 1px;
 }
