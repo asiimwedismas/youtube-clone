@@ -1,27 +1,31 @@
 header,
-main,
+#content,
 footer {
     width: 1000px;
     margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 #video-detail {
-    margin-right: 450px;
+    margin-right: 380px;
 }
 
 #thumbnails-aside {
-    width: 400px;
+    width: 344px;
     display: block;
     float: right;
+    padding: 15px;
+    padding-top: 0px;
 }
 
 #video-stats-summary,
 #more-video-actions,
 #video-description,
-#comments,
-#thumbnails-aside {
-    border: 1px solid lightgray;
-    padding: 20px;
+#comments {
+    padding: 2px 0px;
 }
 
 video {
@@ -53,18 +57,24 @@ main::after {
     vertical-align: top;
 }
 
+.video-content>img {
+    margin-right: 4px
+}
+
 .video-content span {
     display: block;
 }
 
 .video-title {
-    font-size: 14px;
+    font-size: 100%;
     font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin: 0px 0px 2px;
 }
 
 .video-uploader,
 .video-views {
-    font-size: 11px;
+    font-size: 12px;
     color: rgb(118, 118, 118);
 }
 
@@ -119,6 +129,7 @@ main::after {
     margin-right: 0px 30px;
     position: relative;
     top: 8px;
+    opacity: 0.6;
 }
 
 #notification-button {
@@ -136,8 +147,6 @@ main::after {
 header {
     display: flex;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px
 }
 
 header>* {
@@ -162,34 +171,54 @@ header>form {
 
 #button-search {
     cursor: pointer;
-    padding: 8px;
+    padding: 6px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    text-transform: uppercase;
 }
 
 input[type="search"] {
     margin-left: 20px;
     width: 80%;
-    padding: 8px;
+    padding: 4px;
 }
 
 footer ul {
     list-style: none;
 }
 
+footer>ul {
+    padding-left: 0px
+}
+
 footer ul>li {
     display: inline-block;
+    margin-right: 15px
 }
 
 footer div:first-child {
-    display: flex;
+    font-size: 12px;
+}
+
+footer div:first-child>* {
+    display: inline-block;
+}
+
+footer div:first-child>ul {
+    margin: 0px;
+    vertical-align: top;
+    height: inherit;
 }
 
 footer div:first-child>ul>li {
-    margin: 0px 5px;
+    margin: 4px 5px;
+    height: inherit;
 }
 
 footer div:first-child>ul>li>* {
-    padding: 4px 8px;
-    font-size: 12px;
+    padding: 5px 10px;
+    font-size: 11px;
 }
 
 footer div:first-child>ul>li>a {
@@ -202,7 +231,7 @@ footer div:first-child>ul>li>a {
 footer ul:first-of-type>li>a {
     text-decoration: none;
     text-transform: capitalize;
-    color: inherit;
+    color: rgb(51, 51, 51);
     font-weight: bold;
     margin-right: 0px 10px;
 }
@@ -244,6 +273,7 @@ footer ul:last-of-type>li>a {
     width: 20px;
     height: 20px;
     display: inline-block;
+    opacity: 0.5;
 }
 
 
@@ -311,15 +341,22 @@ h1.video-title {
 }
 
 .subsrcibers {
-    border: 1px solid #bdbdbd;
-    padding: 2px 5px;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 1px 5px;
+    font-size: 11px;
+    border-radius: 0px 2px 2px 0px;
+    height: 22px;
+    line-height: 24px;
+    background-color: rgb(250, 250, 250);
 }
 
 .button-subscribe {
+    border: 1px solid red;
     background: red;
     color: #fff;
     border: none;
     padding: 3px 10px;
+    border-radius: 2px 0px 0px 2px;
 }
 
 .total-views {
@@ -335,21 +372,21 @@ h1.video-title {
 #publish-date {
     margin: 0;
     color: #424242;
-    font-size: 18px;
+    font-size: 100%;
 }
 
 #description {
     color: #424242;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 100%;
     font-weight: 500;
 }
 
-#show-more {
+.show-more {
     display: block;
     text-align: center;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     opacity: .7;
 }
@@ -375,10 +412,20 @@ h1.video-title {
 }
 
 #comments {
+    visibility: hidden;
     text-align: center;
 }
 
 hr {
     border-color: rgb(226, 226, 266);
     border-width: 0px 0px 1px;
+}
+
+#auto-info-tip {
+    background: url(./image/menu.png);
+    background-position: -56px -511px;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    opacity: 0.6;
 }

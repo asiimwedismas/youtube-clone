@@ -7,7 +7,8 @@ This is a simple youtube clone built using html5 semantic elements and basic css
 - CSS
 
 # Live Demo
-[Live demo]()
+[Live demo](https://rawcdn.githack.com/asiimwedismas/youtube-clone/755e8de83543e066f7f7874c7695daa464999178/index.html
+)
 
 # Authors
 Emmanuel Chirchir
