@@ -1,0 +1,431 @@
+header,
+#content,
+footer {
+    width: 1000px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+#video-detail {
+    margin-right: 380px;
+}
+
+#thumbnails-aside {
+    width: 344px;
+    display: block;
+    float: right;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+#video-stats-summary,
+#more-video-actions,
+#video-description,
+#comments {
+    padding: 2px 0px;
+}
+
+video {
+    width: 100%;
+    min-height: 200px;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.video-content {
+    margin: 15px 0;
+}
+
+.video-content a {
+    text-decoration: none;
+    color: black;
+    height: inherit;
+}
+
+.video-content>a,
+.video-content>img {
+    display: inline-block;
+    width: 168px;
+    height: 94px;
+    vertical-align: top;
+}
+
+.video-content>img {
+    margin-right: 4px
+}
+
+.video-content span {
+    display: block;
+}
+
+.video-title {
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin: 0px 0px 2px;
+}
+
+.video-uploader,
+.video-views {
+    font-size: 12px;
+    color: rgb(118, 118, 118);
+}
+
+.show-more-video-list {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+    color: rgb(118, 118, 118);
+}
+
+.video-list-title {
+    display: flex;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.video-list-title>span:nth-child(3) {
+    color: rgb(118, 118, 118);
+    margin-right: .5rem;
+}
+
+.video-list-title>span:first-child {
+    font-size: 12px;
+    color: #424242;
+    font-weight: 600;
+}
+
+#menu {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(./image/menu.png);
+    background-position: -198px -862px;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    margin-right: 20px
+}
+
+#upload-button,
+#notification-button,
+#youtube-apps-button {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(./image/menu.png);
+    background-position: -125px -314px;
+    cursor: pointer;
+    margin-right: 0px 30px;
+    position: relative;
+    top: 8px;
+    opacity: 0.6;
+}
+
+#notification-button {
+    background-position: -161px -33px;
+}
+
+#youtube-apps-button {
+    background-position: -231px -280px;
+}
+
+.youtube-logo {
+    width: 120px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header>* {
+    display: inline-block;
+}
+
+header>form {
+    flex-grow: 1;
+    margin: 0px 10px;
+}
+
+#sign-up-button {
+    background-color: deepskyblue;
+    color: white;
+    margin: 10px;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#button-search {
+    cursor: pointer;
+    padding: 6px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+
+input[type="search"] {
+    margin-left: 20px;
+    width: 80%;
+    padding: 4px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer>ul {
+    padding-left: 0px
+}
+
+footer ul>li {
+    display: inline-block;
+    margin-right: 15px
+}
+
+footer div:first-child {
+    font-size: 12px;
+}
+
+footer div:first-child>* {
+    display: inline-block;
+}
+
+footer div:first-child>ul {
+    margin: 0px;
+    vertical-align: top;
+    height: inherit;
+}
+
+footer div:first-child>ul>li {
+    margin: 4px 5px;
+    height: inherit;
+}
+
+footer div:first-child>ul>li>* {
+    padding: 5px 10px;
+    font-size: 11px;
+}
+
+footer div:first-child>ul>li>a {
+    border: 1px solid gray;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: inherit;
+}
+
+footer ul:first-of-type>li>a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-right: 0px 10px;
+}
+
+footer ul:last-of-type>li>a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: inherit;
+    margin-right: 0px 10px;
+    font-size: 12px;
+}
+
+
+/* .float-left {
+    float: left;
+    height: 100%;
+}
+
+.float-right {
+    float: right;
+} */
+
+#more-video-actions {
+    display: flex;
+}
+
+.action-spacer {
+    flex: 1;
+}
+
+#more-video-actions button {
+    border: none;
+    padding: 5px 10px;
+    background: none;
+}
+
+.icon {
+    background: url(./image/menu.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+
+/* .more-video-actions {
+    margin-bottom: 20px;
+} */
+
+.action-button {
+    display: inline-block;
+}
+
+.add-to {
+    background-position: -151px -725px;
+}
+
+.share {
+    background-position: -267px -824px;
+}
+
+.more {
+    background-position: -154px -860px;
+}
+
+.like {
+    background-position: 0px -867px;
+}
+
+.dislike {
+    background-position: -174px -804px;
+}
+
+h1.video-title {
+    margin: 5px 0;
+    color: #424242;
+    font-size: 20px;
+}
+
+.uploader-views-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.uploaders-name {
+    line-height: 24px;
+    text-decoration: none;
+    color: #424242;
+}
+
+.total-views {
+    margin: 0;
+}
+
+.viewers-uploader {
+    display: flex;
+}
+
+.uploaders-name-subscribers-container {
+    margin-left: 10px;
+}
+
+.subscribers-container {
+    display: flex;
+    align-items: center;
+}
+
+.subsrcibers {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 1px 5px;
+    font-size: 11px;
+    border-radius: 0px 2px 2px 0px;
+    height: 22px;
+    line-height: 24px;
+    background-color: rgb(250, 250, 250);
+}
+
+.button-subscribe {
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 2px 0px 0px 2px;
+}
+
+.total-views {
+    border-bottom: 2px solid #2979ff;
+    opacity: .7;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+/* video description section */
+
+#publish-date {
+    margin: 0;
+    color: #424242;
+    font-size: 100%;
+}
+
+#description {
+    color: #424242;
+    margin-top: 5px;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.show-more {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    opacity: .7;
+}
+
+.action-buttons>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.action-buttons>span:last-child {
+    padding: 4px 6px;
+}
+
+.subscribe-icon {
+    background-position: -48px -775px;
+    position: relative;
+    top: 3px;
+}
+
+.button-subscribe>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#comments {
+    visibility: hidden;
+    text-align: center;
+}
+
+hr {
+    border-color: rgb(226, 226, 266);
+    border-width: 0px 0px 1px;
+}
+
+#auto-info-tip {
+    background: url(./image/menu.png);
+    background-position: -56px -511px;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    opacity: 0.6;
+}
